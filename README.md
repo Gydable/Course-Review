@@ -1,11 +1,17 @@
 # React - Express basic setup
 This repository has the basic bare bones code to run a React Frontend and Node/Express Backend and running them together. The project uses MongoDB as the database storage.
 
+## Pre-requisites:
+* Create a Github account if you don’t have one.
+* If you don’t have Git installed in your computer,  install Git using this guide. [Git - Installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+* This a template repository. So, you will fork this repository in your GitHub account before working on it. This will give you a complete ownership of your code. To fork this project, click on the Fork button on the top right corner.
+* Once you have the forked project, you will clone it to your computer to get started. To clone the project, click on the green “Clone or Download” button and follow the instructions.
+* Learn about GitHub and Git commands. We will use git throughout the program, so make sure you have basic understanding of GIT.
+* We will use Visual Studio Code as a text editor. If you have a different preference like Sublime Text, Atom etc., feel free to stick with it. Install [Visual Studio Code](https://code.visualstudio.com/) 
+
+
 ## Hosting and connecting the MongoDB database
 Since we are using MongodDB database, we will need to create a cluster. Go over this awesome [blog post](https://www.mongodb.com/blog/post/quick-start-nodejs-mongodb--how-to-get-connected-to-your-database) that clearly explains how to host a MongoDB cluster and set it up with NodeJS.
-
-## Download and install tools
-1. [VS Code](https://code.visualstudio.com/) (Recommended but not required)
 
 ## The APP
 The app combines two separate applications. Client which serves the FrontEnd (using React), and the API (in Node/Express)
